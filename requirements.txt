@@ -6,3 +6,4 @@ optuna
 ipykernel
 tensorboard
 tqdm
+torch-geometric
