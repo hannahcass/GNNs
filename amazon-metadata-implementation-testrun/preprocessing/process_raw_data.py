@@ -58,7 +58,9 @@ def metadata_to_csv(metadata, output_file_path):
 
 
 if __name__ == "__main__":
-    file_path = '../data/raw_2006/amazon-meta.txt'
-    output_file_path = '../data/processed_data/data.csv'
+    #file_path = '../data/raw_2006/amazon-meta.txt'
+    #output_file_path = '../data/processed_data/data.csv'
+    file_path = 'data/test_data/Amazon0302.txt'
+    output_file_path = '../data/test_data/test_data.csv'
     metadata = process_raw_data(file_path)
     metadata_to_csv(metadata, output_file_path)
